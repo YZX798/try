@@ -1,0 +1,33 @@
+# ===== Keil MDK：编译输出（可再生成）=====
+MDK-ARM/Blance/
+*.o
+*.d
+*.crf
+*.dep
+*.lnp
+*.axf
+*.hex
+*.map
+*.htm
+*.iex
+*.__i
+*.lst
+
+# ===== Keil MDK：本机个人配置（不该共享）=====
+MDK-ARM/*.uvoptx
+MDK-ARM/*.uvguix.*
+MDK-ARM/DebugConfig/
+
+# ===== CMSIS 里本项目没用到的大件 =====
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/Lib/
+Drivers/CMSIS/RTOS/
+Drivers/CMSIS/DSP_Lib_TestSuite/
+
+# ===== 编辑器 / 操作系统 =====
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
